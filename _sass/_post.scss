@@ -1,0 +1,35 @@
+$primary-font: 'Abril Fatface', cursive;
+$secondary-font: 'Josefin Sans', sans-serif;
+
+.page-heading {
+  font-family: $primary-font;
+  font-size: 2em;
+  color: #9C6D6E;
+}
+
+.page-title {
+	font-family: $primary-font;
+	color: #9C6D6E;
+}
+
+.post-title {
+	a {
+		color: #9C6D6E;
+	}
+	a:hover {
+		color: #eb2e39;
+	}
+}
+
+.post-content {
+  font-family: $secondary-font;
+  font-size: 20px;
+}
+
+.post-info {
+  padding:0 0 5% 0;
+}
+
+.post-time {
+  color: #828282
+}

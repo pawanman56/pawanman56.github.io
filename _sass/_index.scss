@@ -1,0 +1,49 @@
+$primary-font: 'Abril Fatface', cursive;
+$secondary-font: 'Josefin Sans', sans-serif;
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+.home {
+  border: 1px solid #e7e7e7;
+  @include border-radius(3px);
+}
+
+.post-meta {
+  font-family: $secondary-font;
+}
+
+.post-list {
+  font-size: 18px;
+}
+
+li {
+  list-style: none;
+}
+
+.post-list {
+  padding: 0 5% 0 5%;
+}
+
+.post-title {
+  font-family: $primary-font;
+}
+
+.post-preview {
+  font-family: $secondary-font;
+}
+
+.post-meta,
+.post-title,
+.post-preview
+{
+  padding:2% 0 0 0;
+}
+
+.preview {
+  font-size: 14px;
+}

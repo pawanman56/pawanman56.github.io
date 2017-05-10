@@ -1,0 +1,26 @@
+$primary-font: 'Abril Fatface', cursive;
+$secondary-font: 'Josefin Sans', sans-serif;
+
+.my-pic img {
+  margin: 2% 0 0 0;
+  height: 400px;
+  width: 400px;
+}
+
+.my-pic {
+  margin:0 0 5% 0;
+}
+
+.description {
+  font-family: $secondary-font;
+  font-size: 24px;
+}
+
+.social-media-links {
+  margin:50px 0 0 0;
+  a {
+    color:#1da1f2;
+    margin:0 0 0 5px;
+    text-decoration:none;
+  } 
+}

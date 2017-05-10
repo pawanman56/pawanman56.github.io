@@ -1,0 +1,30 @@
+$primary-font: 'Abril Fatface', cursive;
+$secondary-font: 'Josefin Sans', sans-serif;
+
+.navbar-default {
+  background-color: #9C6D6E;
+  font-family: $primary-font;
+}
+
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+
+.navbar-header .navbar-brand {
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  font-family: 'Kaushan Script', cursive;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #000000;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #ffffff;
+}
+

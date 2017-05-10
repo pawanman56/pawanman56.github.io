@@ -1,0 +1,22 @@
+$primary-font: 'Abril Fatface', cursive;
+$secondary-font: 'Josefin Sans', sans-serif;
+
+footer {
+  font-family: $secondary-font;
+  background-color: rgba(156, 109, 110, 0.6);
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  padding: 1%;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+i
+{
+  color:#9C6D6E;
+}
+
+i:hover {
+  color: #eb2e39
+}
