@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+z<<<<<<< HEAD
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -14,12 +14,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
 title: Pawan's Ink
 email: pawanman56@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   This is the personal blogsite of Pawan Sunuwar. Pawan Sunuwar is a student of Computer Science specialized in front-end web development, HTML5, CSS, CSS3, SCSS, SASS, PHP, JavaScript, JS, JAVA, Ruby, and Ruby on Rails. 
-baseurl:  # the subpath of your site, e.g. /blog
-url: "http://pawanman56.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: pawanman56
 github_username:  pawanman56
 
@@ -31,5 +32,7 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+exclude:
+  [vendor]
 =======
 theme: jekyll-theme-cayman
