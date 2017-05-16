@@ -8,9 +8,28 @@ $secondary-font: 'Josefin Sans', sans-serif;
           border-radius: $radius;
 }
 
+@media screen and(max-width: 768px) {
+  .main-data {
+    padding-top: 7% !important;
+  }
+}
+
+@media screen and(max-width: 550px) {
+  .main-data {
+    padding-top: 9% !important;
+  }
+}
+
+@media screen and(max-width: 425px) {
+  .main-data {
+    padding-top: 12% !important;
+  }
+}
+
 .home {
   border: 1px solid #e7e7e7;
   @include border-radius(3px);
+  margin-top: 20px;
 }
 
 .post-meta {
