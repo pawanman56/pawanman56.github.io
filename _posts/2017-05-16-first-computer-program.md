@@ -5,7 +5,7 @@ date: 2017-05-16
 category: first computer programming language
 ---
 
-![Your first computer programming]({{ site.url }}/assets/programming.jpg)
+![Your first computer programming](/assets/programming.jpg)
 
 <h2><b>How to start your first computer programming?</b></h2>
 
