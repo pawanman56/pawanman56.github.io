@@ -72,3 +72,6 @@ And that's all folk.
 [Brackeys]: https://www.youtube.com/channel/UCYbK_tjZ2OrIZFBvU6CCMiA
 [Codemy School]: https://www.youtube.com/channel/UCXNeUcG4KpZaYUgYJvgN9tg
 [The Coding Train]: https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw
+[Tutorials Point]: https://www.tutorialspoint.com/
+[Code Academy]: https://www.codecademy.com/
+[Treehouse]: https://teamtreehouse.com/
