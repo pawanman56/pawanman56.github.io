@@ -26,6 +26,14 @@ $secondary-font: 'Josefin Sans', sans-serif;
   }
 }
 
+.mg-tp-0 {
+  margin-top: 0 !important;
+}
+
+.mg-tp-20 {
+  margin-top: 20px;
+}
+
 .home {
   border: 1px solid #e7e7e7;
   @include border-radius(3px);
@@ -65,4 +73,15 @@ li {
 
 .preview {
   font-size: 14px;
+}
+
+.total-visits {
+  h4 {
+    font-family: $primary-font;
+    color: #9C6D6E;
+  }
+
+  img {
+    margin-bottom: 12px;
+  }
 }
