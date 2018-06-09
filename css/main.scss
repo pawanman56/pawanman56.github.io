@@ -15,8 +15,12 @@ html {
   color:#000000;
 }
 
-.main-data {
-  padding:5% 0 0 0;
+h1, h2, h3, h4, h5 {
+  text-align: left;
+}
+
+h2 {
+  margin-top: 0;
 }
 
 img {
@@ -26,6 +30,14 @@ img {
 
 @media(max-width:767px){
   .main-data {
-    padding:15% 0 0 0;
+    padding:15% 5% 0;
   }
+}
+
+ul li::before {
+  left: 0 !important;
+}
+
+ul li {
+  text-indent: 0 !important;
 }
