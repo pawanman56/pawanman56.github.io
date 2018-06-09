@@ -4,6 +4,10 @@
   .split-nav {
     display: flex;
 
+    .navbar-header {
+      width: -webkit-fill-available;
+    }
+
     .navbar-brand {
       color: #ffffff;
       font-size: 30px;
@@ -20,6 +24,7 @@
     }
 
     #collapse {
+      width: -webkit-fill-available;
       flex: -moz-fit-content;
       text-align: right;
     }

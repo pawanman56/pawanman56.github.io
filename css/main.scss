@@ -4,7 +4,6 @@
 @charset "utf-8";
 
 @import "footer";
-@import "footerbottom";
 @import "index";
 @import "navbar";
 @import "pagecontent";
@@ -17,6 +16,7 @@ html {
 
 h1, h2, h3, h4, h5 {
   text-align: left;
+  overflow-wrap: break-word !important;
 }
 
 h2 {
