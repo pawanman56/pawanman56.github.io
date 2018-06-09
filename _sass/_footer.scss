@@ -1,22 +1,31 @@
-$primary-font: 'Abril Fatface', cursive;
-$secondary-font: 'Josefin Sans', sans-serif;
-
 footer {
-  font-family: $secondary-font;
-  background-color: rgba(156, 109, 110, 0.6);
-  width: auto;
+  margin: 0 !important;
+  width: -moz-available;
   height: auto;
-  margin: 0 auto;
-  padding: 1%;
+  flex-direction: column !important;
+  align-items: center;
   font-size: 18px;
+  background-color: #000;
   color: #ffffff;
+
+  ul.inline {
+    padding-left: 0;
+
+    li::before {
+      content: none;
+    }
+
+    a {
+      background-image: none;
+    }
+  }
 }
 
 i
 {
-  color:#9C6D6E;
+  color:#ffffff;
 }
 
 i:hover {
-  color: #eb2e39
+  color: #ed7034
 }

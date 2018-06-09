@@ -1,30 +1,76 @@
-$primary-font: 'Abril Fatface', cursive;
-$secondary-font: 'Josefin Sans', sans-serif;
-
 .navbar-default {
-  background-color: #9C6D6E;
-  font-family: $primary-font;
+  background-color: #424242;
+
+  .split-nav {
+    display: flex;
+
+    .navbar-brand {
+      color: #ffffff;
+      font-size: 30px;
+      background-image: none;
+    }
+
+    .navbar-brand:hover {
+      color: #ed7034;
+    }
+
+    .icon {
+      display: none;
+      background-image: none;
+    }
+
+    #collapse {
+      flex: -moz-fit-content;
+      text-align: right;
+    }
+
+    ul.nav.navbar-nav {
+      margin: 0;
+      padding: 0;
+      line-height: 2;
+
+      li>a {
+        color: #ffffff;
+        background-image: none;
+      }
+
+      li>a:hover {
+        color: #ed7034;
+      }
+    }
+  }
 }
 
-.navbar-default .navbar-brand {
-  color: #ffffff;
+@media screen and (max-width: 600px) {
+  .split-nav {
+    flex-direction: column;
+  }
+
+  .navbar-header {
+    display: flex;
+    width: -moz-available;
+    justify-content: space-between;
+    
+    .icon {
+      display: flex !important;
+      align-self: center;
+    }
+  }
+
+  .collapse {
+    display: none;
+  }
 }
 
-.navbar-header .navbar-brand {
-  width: auto;
-  height: auto;
-  margin: 0 auto;
-  font-family: 'Kaushan Script', cursive;
-  font-weight: 100;
-  font-size: 30px;
-}
+@media screen and (max-width: 600px) {
+  .collapse.responsive {
+    display: flex;
+    justify-content: flex-end;
 
-.navbar-default .navbar-brand:hover {
-  color: #000000;
-  background-color: transparent;
+    ul {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.5 !important;
+    }
+  }
 }
-
-.navbar-default .navbar-nav>li>a {
-  color: #ffffff;
-}
-

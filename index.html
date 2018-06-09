@@ -5,18 +5,19 @@ description: This is a personal Blog of Pawan Sunuwar, and he is in realtionshpi
 ---
 <div class="home">
 
-  <h1 class="text-center page-title">#MyDigitalInks</h1>
+  <h2 class="text-center">#MyDigitalInks</h2>
   <ul class="post-list">
     {% for post in site.posts %}
-      <hr/>
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <div class="post-title">
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+      <li class="card">
+        <div class="card-body">
+          <h4 class="card-title">
+            <a class="card-link" href="{{ post.url | prepend: site.baseurl }}">
+              {{ post.title | escape }}
+            </a>
+          </h4>
+          <h5 class="card-subtitle">{{ post.date | date: "%b %-d, %Y" }}</h5>
+          <p class="card-text">{{ post.content | strip_html | truncatewords: 50 }}</p>
         </div>
-
-        <p class="post-preview">{{ post.content | strip_html | truncatewords: 50 }}</p>
       </li>
     {% endfor %}
   </ul>

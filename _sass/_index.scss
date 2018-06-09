@@ -1,29 +1,8 @@
-$primary-font: 'Abril Fatface', cursive;
-$secondary-font: 'Josefin Sans', sans-serif;
-
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
      -moz-border-radius: $radius;
       -ms-border-radius: $radius;
           border-radius: $radius;
-}
-
-@media screen and(max-width: 768px) {
-  .main-data {
-    padding-top: 7% !important;
-  }
-}
-
-@media screen and(max-width: 550px) {
-  .main-data {
-    padding-top: 9% !important;
-  }
-}
-
-@media screen and(max-width: 425px) {
-  .main-data {
-    padding-top: 12% !important;
-  }
 }
 
 .mg-tp-0 {
@@ -34,55 +13,27 @@ $secondary-font: 'Josefin Sans', sans-serif;
   margin-top: 20px;
 }
 
-.home {
-  border: 1px solid #e7e7e7;
-  @include border-radius(3px);
-  margin-top: 20px;
-  margin-bottom: 25px;
-}
-
-.post-meta {
-  font-family: $secondary-font;
-}
-
 .post-list {
   font-size: 18px;
+  padding: 0 5% 0 5%;
+
+  li::before {
+    content: none;
+  }
+
+  li.card {
+    margin-bottom: 35px;
+
+    p {
+      margin-bottom: 0 !important;
+    }
+  }
+
+  .card-title > a:hover {
+    color: #ed7034;
+  }
 }
 
 li {
   list-style: none;
-}
-
-.post-list {
-  padding: 0 5% 0 5%;
-}
-
-.post-title {
-  font-family: $primary-font;
-}
-
-.post-preview {
-  font-family: $secondary-font;
-}
-
-.post-meta,
-.post-title,
-.post-preview
-{
-  padding:2% 0 0 0;
-}
-
-.preview {
-  font-size: 14px;
-}
-
-.total-visits {
-  h4 {
-    font-family: $primary-font !important;
-    color: #9C6D6E !important;
-  }
-
-  img {
-    margin-bottom: 12px;
-  }
 }
