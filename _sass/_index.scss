@@ -86,3 +86,15 @@
 .pb-1 {
   padding-bottom: 1rem;
 }
+
+// Lists
+ul {
+  list-style: none;
+}
+
+// Link Texts
+a,
+a:hover {
+  color: #000000 !important;
+  text-decoration: none !important;
+}
