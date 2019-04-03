@@ -1,28 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   {% include head.html %}
   <body>
+    <div id="nescss">
+      {% include navbar.html %}
 
-    {% include navbar.html %}
-    
-    <div id="wrapper">
-      
-      <div class="row flex-center">
-        
-        <div class="post-content sm-8 md-8 lg-8 col">
-          <div class="post-info">
-            <h1 class="text-center">{{ page.title }}</h1>
-            <h5 class="post-time text-center">{{ page.date | date: "%B %-d, %Y" }}</h5>
-          </div>
-          {{ content }}
+      <div class="container">
+        <main class="main-content">
+            <div class="mb-2">
+              <h2>{{ page.title }}</h2>
+              <h5>{{ page.date | date: "%B %-d, %Y" }}</h5>
+            </div>
 
-          {% include social.html %}
-        </div>
+            {{ content }}
+  
+            {% include social.html %}
+        </main>
       </div>
-
+      
       {% include footer.html %}
-
     </div>
-
   </body>
 </html>

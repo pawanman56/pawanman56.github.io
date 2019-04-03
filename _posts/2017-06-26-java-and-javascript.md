@@ -33,7 +33,7 @@ For the brief history of JavaScript you can visit this [site]. Thus, to compare 
 Despite of similar name JavaScript is not a part of the Java platform. The main difference between them is that Java a stand-alone language while JavaScript must be placed inside a HTML document to funciton. A Java creates 'applet' that is a fully contained program. JavaScript resides within HTML documents, and can provide level of interactivity to web pages that are not achiveable with simple HTML.
 
 Some key differences betweeb Java and JavaScript:
-<ul style="list-style: circle;">
+<ul>
   <li>- Java is an OOP programming language while Java Script is an OOP scripting language</li>
   <li>- Java creates applications that run in a virtual machine or browser while JavaScript code is run on a browser only</li>
   <li>- Java code needs to be compiled while JavaScript code are all in tex</li>

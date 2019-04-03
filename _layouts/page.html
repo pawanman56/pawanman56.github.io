@@ -1,21 +1,24 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
   {% include head.html %}
   <body>
+    <div id="nescss">
+      {% include navbar.html %}
 
-    {% include navbar.html %}
+      <div class="container">
+        <main class="main-content">
+            <div class="mb-2">
+              <u>
+                <h2>{{ page.title }}</h2>
+              </u>
+            </div>
 
-    <div id="wrapper">
-
-        <div class="row flex-center">
-          <div class="page-content sm-8 md-8 lg-8 col">
-            <h2 class="text-center">{{ page.title }}</h2>
             {{ content }}
-          </div>
+        </main>
       </div>
       
       {% include footer.html %}
-
     </div>
   </body>
 </html>

@@ -6,12 +6,15 @@
 @import "footer";
 @import "index";
 @import "navbar";
-@import "pagecontent";
-@import "post";
+@import "variable";
 
 html {
   text-align: justify;
   color:#000000;
+}
+
+html, body, pre, code, kbd, samp {
+  font-family: 'Press Start 2P', cursive;
 }
 
 h1, h2, h3, h4, h5 {
@@ -26,18 +29,17 @@ h2 {
 img {
   margin:0;
   max-width:100%;
+  margin-bottom: 2rem !important;
 }
 
-@media(max-width:767px){
-  .main-data {
-    padding:15% 5% 0;
+#nescss > .container {
+  max-width: 980px;
+  margin: 0 auto;
+  margin-top: 9rem;
+
+  main.main-content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 3rem;
   }
-}
-
-ul li::before {
-  left: 0 !important;
-}
-
-ul li {
-  text-indent: 0 !important;
 }
