@@ -6,8 +6,6 @@
 @import "footer";
 @import "index";
 @import "navbar";
-@import "pagecontent";
-@import "post";
 @import "variable";
 
 html {
@@ -31,6 +29,7 @@ h2 {
 img {
   margin:0;
   max-width:100%;
+  margin-bottom: 2rem !important;
 }
 
 #nescss > .container {
