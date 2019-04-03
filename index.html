@@ -1,25 +1,24 @@
 ---
 layout: default
 title: Welcome
-description: This is a personal Blog of Pawan Sunuwar, and he is in realtionshpi with Ruby on Rails.
+description: This is a personal Blog of Pawan Sunuwar, and he does Front-end, Music & Arts.
 ---
-<div class="home">
+<u>
+  <h2 class="mb-2"># My Digital Inks</h2>
+</u>
 
-  <h2 class="text-center" style="overflow-wrap: break-word;">#MyDigitalInks</h2>
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li class="card">
-        <div class="card-body">
-          <h4 class="card-title">
-            <a class="card-link" href="{{ post.url | prepend: site.baseurl }}">
-              {{ post.title | escape }}
-            </a>
-          </h4>
-          <h5 class="card-subtitle">{{ post.date | date: "%b %-d, %Y" }}</h5>
-          <p class="card-text">{{ post.content | strip_html | truncatewords: 50 }}</p>
-        </div>
-      </li>
-    {% endfor %}
-  </ul>
-
-</div>
+<ul class="p-0">
+  {% for post in site.posts %}
+    <li class="mb-2">
+      <div class="nes-container with-title is-rounded">
+        <h4 class="title">
+          <a href="{{ post.url | prepend: site.baseurl }}">
+            {{ post.title | escape }}
+          </a>
+        </h4>
+        <h5>{{ post.date | date: "%b %-d, %Y" }}</h5>
+        <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
