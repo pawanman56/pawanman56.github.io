@@ -14,6 +14,10 @@ html {
   color:#000000;
 }
 
+html, body, pre, code, kbd, samp {
+  font-family: 'Press Start 2P', cursive;
+}
+
 h1, h2, h3, h4, h5 {
   text-align: left;
   overflow-wrap: break-word !important;

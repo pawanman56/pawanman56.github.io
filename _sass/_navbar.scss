@@ -1,3 +1,25 @@
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  border-bottom: 4px solid #D3D3D3;
+  background-color: white;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 980px;
+    margin: 0 auto;
+    padding-top: 1rem;
+    transition: all 0.2s ease;
+
+  }
+}
+
 .navbar-default {
   background-color: #424242;
 
