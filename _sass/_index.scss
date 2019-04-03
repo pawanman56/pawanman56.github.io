@@ -86,28 +86,3 @@
 .pb-1 {
   padding-bottom: 1rem;
 }
-
-.post-list {
-  font-size: 18px;
-  padding: 0 5% 0 5%;
-
-  li::before {
-    content: none;
-  }
-
-  li.card {
-    margin-bottom: 35px;
-
-    p {
-      margin-bottom: 0 !important;
-    }
-  }
-
-  .card-title > a:hover {
-    color: #ed7034;
-  }
-}
-
-li {
-  list-style: none;
-}

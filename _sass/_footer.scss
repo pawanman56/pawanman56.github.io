@@ -1,31 +1,19 @@
 footer {
-  margin: 0 !important;
-  width: -moz-available;
-  height: auto;
-  flex-direction: column !important;
-  align-items: center;
-  font-size: 18px;
   background-color: #000;
   color: #ffffff;
 
-  ul.inline {
-    padding-left: 0;
+  .container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 1rem;
+    transition: all 0.2s ease;
 
-    li::before {
-      content: none;
-    }
-
-    a {
-      background-image: none;
+    ul {
+      display: inline-flex;
     }
   }
-}
-
-i
-{
-  color:#ffffff;
-}
-
-i:hover {
-  color: #ed7034
 }
