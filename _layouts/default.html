@@ -2,26 +2,16 @@
 <html lang="en">
   {% include head.html %}
   <body>
+    <div id="nescss">
+        {% include navbar.html %}
 
-    {% include navbar.html %}
-
-    <div id="wrapper">
-
-      <div class="row flex-center">
-        <div class="page-content sm-8 md-8 lg-8 col">
-          {{ content }}
+        <div class="container">
+          <main class="main-content">
+            {{ content }}
+          </main>
         </div>
-      </div>
-
+      
+        {% include footer.html %}
     </div>
-  
-    {% include footer.html %}
-
-    <script> 
-      $(function(){ 
-        $('.nav-tabs a:first').tab('show');
-      }); 
-    </script> 
-
   </body>
 </html>

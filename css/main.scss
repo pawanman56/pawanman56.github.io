@@ -32,3 +32,15 @@ img {
   margin:0;
   max-width:100%;
 }
+
+#nescss > .container {
+  max-width: 980px;
+  margin: 0 auto;
+  margin-top: 7rem;
+
+  main.main-content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 3rem;
+  }
+}
