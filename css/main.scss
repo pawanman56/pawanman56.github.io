@@ -8,6 +8,7 @@
 @import "navbar";
 @import "pagecontent";
 @import "post";
+@import "variable";
 
 html {
   text-align: justify;
@@ -30,12 +31,6 @@ h2 {
 img {
   margin:0;
   max-width:100%;
-}
-
-@media(max-width:767px){
-  .main-data {
-    padding:15% 5% 0;
-  }
 }
 
 ul li::before {

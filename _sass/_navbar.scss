@@ -15,89 +15,54 @@ header {
     max-width: 980px;
     margin: 0 auto;
     padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     transition: all 0.2s ease;
 
-  }
-}
-
-.navbar-default {
-  background-color: #424242;
-
-  .split-nav {
-    display: flex;
-
-    .navbar-header {
-      width: -webkit-fill-available;
-    }
-
-    .navbar-brand {
-      color: #ffffff;
-      font-size: 30px;
-      background-image: none;
-    }
-
-    .navbar-brand:hover {
-      color: #ed7034;
-    }
-
-    .icon {
+    .nav-brand > .icon {
       display: none;
-      background-image: none;
     }
 
-    #collapse {
-      width: -webkit-fill-available;
-      flex: -moz-fit-content;
-      text-align: right;
-    }
-
-    ul.nav.navbar-nav {
-      margin: 0;
-      padding: 0;
-      line-height: 2;
-
-      li>a {
-        color: #ffffff;
-        background-image: none;
-      }
-
-      li>a:hover {
-        color: #ed7034;
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .split-nav {
-    flex-direction: column;
-  }
-
-  .navbar-header {
-    display: flex;
-    width: -moz-available;
-    justify-content: space-between;
-    
-    .icon {
-      display: flex !important;
-      align-self: center;
+    .collapse {
+      display: inline-flex;
     }
   }
 
-  .collapse {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .collapse.responsive {
-    display: flex;
-    justify-content: flex-end;
-
-    ul {
-      display: flex;
+  @media screen and (max-width: 600px) {
+    .container {
       flex-direction: column;
-      line-height: 1.5 !important;
+
+      .nav-brand {
+        display: flex;
+        width: -moz-available;
+        width: -webkit-fill-available;
+        justify-content: space-between;
+
+        .icon {
+          display: flex !important;
+          align-self: center;
+
+          i {
+            color: #000000;
+          }
+        }
+      }
+
+      .collapse {
+        display: none;
+      }
+
+      .collapse.responsive {
+        display: flex;
+        justify-content: flex-end;
+        transition: all 0.2s ease-in-out;
+    
+        ul {
+          display: flex;
+          flex-direction: column;
+          line-height: 1.5 !important;
+        }
+      }
     }
   }
 }
