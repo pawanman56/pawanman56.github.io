@@ -1,24 +1,6 @@
-.post-content {
-	font-size: 20px;
-	
-	h1, h2, h3, h4, h5 {
-		margin-bottom: 0;
-		overflow-wrap: break-word !important;
+.post-detail {
+	img {
+		width: 100%;
+		margin-bottom: 2rem !important;
 	}
-}
-
-.post-info {
-	padding:0 0 5% 0;
-
-	h1, h2, h3, h4, h5 {
-		margin: 0;
-	}
-}
-
-.post-time {
-  color: #828282
-}
-
-img {
-	width: 100%;
 }
