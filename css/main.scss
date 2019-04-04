@@ -26,8 +26,17 @@ h2 {
   margin-top: 0;
 }
 
+h1 {
+  font-size: 1.85em;
+}
+
+p, a, ul, li {
+  font-size: 0.93em;
+}
+
 img {
   margin:0;
+  width: 100%;
   max-width:100%;
   margin-bottom: 2rem !important;
 }
