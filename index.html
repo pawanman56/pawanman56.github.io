@@ -1,24 +1,32 @@
 ---
 layout: default
 title: Welcome
-description: This is a personal Blog of Pawan Sunuwar, and he does Front-end, Music & Arts.
+description: This is a personal site of Pawan Sunuwar, and he does Front-end, Music & Arts.
 ---
-<u>
-  <h2 class="mb-2"># My Digital Inks</h2>
-</u>
 
-<ul class="p-0">
-  {% for post in site.posts %}
-    <li class="mb-2">
-      <div class="nes-container with-title is-rounded">
-        <h4 class="title">
-          <a href="{{ post.url | prepend: site.baseurl }}">
-            {{ post.title | escape }}
-          </a>
-        </h4>
-        <h5>{{ post.date | date: "%b %-d, %Y" }}</h5>
-        <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
-      </div>
-    </li>
-  {% endfor %}
-</ul>
+<div class="row">
+  <h3>*** Welcome ***</h3>
+</div>
+
+<div class="row">
+  <p>Hi. I'm Pawan Sunuwar.</p>
+  <p>I create stuffs for the web and mobile devices.</p>
+</div>
+
+<div class="row">
+  <p>
+    I like arts, musics, playing guitar and <u><a href="https://en.wikipedia.org/wiki/Momo_(dumpling)" target="_blank" title="Mo:Mo:">Mo:Mo:</a>s</u>.
+  </p>If you have anything to share or discuss,<br> or just to have a coffee, you can reach out to me.</p>
+</div>
+-------------------------
+<div class="row">
+  <u>Contact:</u>
+</div>
+
+<div class="row">
+  E-mail: <a href="mailto:pawanman56@gmail.com">pawanman56@gmail.com</a></br>
+  <a href="https://www.facebook.com/pawanman56">Facebook</a> | 
+  <a href="https://www.twitter.com/pawanman56">Twitter</a> | 
+  <a href="https://www.github.com/pawanman56">Github</a> | 
+  <a href="https://www.instagram.com/pa_won.sunuwar">Instagram</a>
+</div>
